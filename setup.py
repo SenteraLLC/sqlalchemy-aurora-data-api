@@ -13,7 +13,7 @@ setup(
     long_description=open('README.rst').read(),
     install_requires=[
         'sqlalchemy',
-        'aurora-data-api'
+        'aurora-data-api @ git+ssh://git@github.com/SenteraLLC/aurora-data-api@small-pages'
     ],
     extras_require={
     },
